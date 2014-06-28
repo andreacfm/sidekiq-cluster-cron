@@ -1,0 +1,4 @@
+print:
+  cron: "*/1 * * * *"
+  class: "PrintWorker"
+  queue: default
