@@ -4,7 +4,7 @@ class PrintWorker
   
   def perform
     p "I AM WORKING AT #{Time.now}"
-    sleep 75
+    sleep 120
   end  
   
 end  
